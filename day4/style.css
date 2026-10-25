@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #222222;
+    --box-color: white;
+    --button-color: darkblue;
+}
+
+body.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --box-color: #333333;
+    --button-color: royalblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--box-color);
+    color: var(--text-color);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
