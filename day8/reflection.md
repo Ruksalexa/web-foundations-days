@@ -1,0 +1,7 @@
+# Reflection
+
+The most difficult concept for me in this course was thinking about scale in system design. Writing code that works for one user is one thing, but it was hard to picture what happens when a million people use the same app. At first, things like caches, read replicas and queues felt like a list of words to memorise. What helped me was working out the numbers. When I calculated reads and writes per second for each project, I could see why one database would struggle, and each component started to make sense as the answer to a specific problem. Going one step at a time and testing each part before moving on also helped, and so did making mistakes, like pushing my work to the wrong repository once and learning how to fix it.
+
+If I could improve one part of my capstone, it would be the QuickNotes web page. Based on the feedback I received, I would make it more engaging and more user friendly. The page works, but it is quite plain. I would add a loading spinner instead of only text, ask "Are you sure?" before a note is deleted, and make the success and error messages clearer and easier to notice. I would also improve the layout on phones and use colours and spacing that make the notes more pleasant to read.
+
+Next, I want to learn a backend language like Node.js and build a real API with a real database, instead of only designing one on paper. After that, I would like to learn how to deploy it online, so I can see my own design handle real users.
